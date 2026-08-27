@@ -1,2 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  background: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.total-row td {
+  font-weight: 700;
+  font-size: 1.1em;
+  background: #f0fff0;
+  color: #2e7d32;
+}
